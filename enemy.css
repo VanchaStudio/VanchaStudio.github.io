@@ -1,0 +1,65 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(70, 4, 222);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.ButtonClick {
+    background-image: url('Enemy.jpg');
+    
+    position: absolute;
+    left: 400px;
+    top: 150px;
+    width: 250px;
+    height: 500px;
+}
+
+.ButtonClick:hover {
+    cursor: url("bat1.png"), auto;
+}
+
+/*
+.ButtonUpload {
+    background-image: url('Dead.png');
+    background-size: 50%;
+    position: fixed;
+    left: 50px;
+    top: 100px;
+    //padding: -19px -20px; 
+    width: 20px;
+    height: 30px;
+} */
+
+.score {
+    font-size: 50px;
+    position: absolute;
+    left: 670px;
+    top: 150px;
+}
+
+body{
+    background: url("med.jpg");
+    background-size: 90%;
+}
